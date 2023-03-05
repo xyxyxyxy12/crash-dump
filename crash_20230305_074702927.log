@@ -1,0 +1,1470 @@
+{07:47:02.928} INFO: [Game]   > System locale is 'En'
+{07:47:02.928} INFO: [Game]   > Speech locale is 'En'
+{07:47:02.963} INFO: [System] > Build version: 6.2021.0508.1500
+{07:47:02.963} INFO: [System] > [PID] 304
+{07:47:02.991} INFO: [System] > [CPU] vendor: AuthenticAMD, features: SSSE3 SSE4.1 SSE4.2 SSE4A AVX AVX2 F16C FMA CX16 POPCNT LZCNT BMI1 BMI2 HTT, clock frequency: 4491.56MHz
+{07:47:02.992} INFO: [System] > [CPU] CPUs: 1, Cores: 8, HT: Yes, Logical processors: 16
+{07:47:02.996} INFO: [JobManager] > TM338b24ff, dedicated worker threads: 1 + 7, num cpus: 16
+{07:47:02.996} INFO: [ODE]        > [ode::dInitialize] SSE path
+{07:47:03.402} INFO: [Renderer]   > [r_Initialize] Loaded from rd3d11_x64_rwdi.dll.
+{07:47:03.403} INFO: [Renderer]   > Enumerating D3D11 video adapters:
+{07:47:03.405} INFO: [Renderer]   > Adapter 1: NVIDIA GeForce GTX 1060 6GB 6043MB/16252MB/0MB
+{07:47:03.405} INFO: [Renderer]   |   Output 0: [0,0 - 1920,1080] \\.\DISPLAY1
+{07:47:03.405} INFO: [Renderer]   > Adapter 2: Microsoft Basic Render Driver 0MB/16252MB/0MB
+{07:47:03.493} INFO: [Renderer]   > Renderer started in DX11 mode.
+{07:47:03.660} INFO: [Renderer]   > DDraw reported 4,088M free texture memory.
+{07:47:03.755} INFO: [Renderer]   > [CheckSLI] Single GPU system
+{07:47:03.755} INFO: [Renderer]   > Renderer: supported display modes:
+{07:47:03.755} INFO: [Renderer]   |  640x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  640x480, bpp:24, hz:59.94, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  720x480, bpp:24, hz:60.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  720x480, bpp:24, hz:59.94, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  720x576, bpp:24, hz:50.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  800x600, bpp:24, hz:60.32, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1024x768, bpp:24, hz:60.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1152x864, bpp:24, hz:59.89, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1152x864, bpp:24, hz:59.89, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1176x664, bpp:24, hz:60.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1176x664, bpp:24, hz:59.94, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1176x664, bpp:24, hz:59.94, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1176x664, bpp:24, hz:50.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1176x664, bpp:24, hz:50.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1280x720, bpp:24, hz:60.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1280x720, bpp:24, hz:59.94, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1280x720, bpp:24, hz:50.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1280x768, bpp:24, hz:59.81, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1280x768, bpp:24, hz:59.81, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1280x800, bpp:24, hz:59.81, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1280x960, bpp:24, hz:60.02, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1280x960, bpp:24, hz:60.02, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1280x1024, bpp:24, hz:60.02, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1360x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1360x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1366x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1366x768, bpp:24, hz:59.89, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1440x900, bpp:24, hz:59.89, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1600x900, bpp:24, hz:60.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1600x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1600x1024, bpp:24, hz:59.95, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1680x1050, bpp:24, hz:59.95, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1768x992, bpp:24, hz:60.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1768x992, bpp:24, hz:60.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1768x992, bpp:24, hz:59.94, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1768x992, bpp:24, hz:59.94, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1768x992, bpp:24, hz:50.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1768x992, bpp:24, hz:50.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1920x1080, bpp:24, hz:60.00, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1920x1080, bpp:24, hz:59.94, fmt: A8R8G8B8
+{07:47:03.755} INFO: [Renderer]   |  1920x1080, bpp:24, hz:50.00, fmt: A8R8G8B8
+{07:47:03.764} INFO: [INFO]       > Texture streaming lowest priority distance set to 100m
+{07:47:03.765} INFO: [Renderer]   > WindowOffset 0 0
+{07:47:04.229} DEBG: [DXGI]       > WM_SIZE 0, 1920x1071
+{07:47:04.229} INFO: [INFO]       > CGame::AppWindowInit: window client area: 0x0, 1920x1071
+{07:47:04.229} DEBG: [DXGI]       > [RChangeDeviceState] 1920x1080, fullscreen, 60/1 Hz
+{07:47:04.229} DEBG: [DXGI]       >                  was 0x0, fullscreen, 0/0 Hz
+{07:47:04.253} DEBG: [DXGI]       > WM_WINDOWPOSCHANGING 1920x1080
+{07:47:04.253} DEBG: [DXGI]       > WM_WINDOWPOSCHANGING overridden to 1920x1080
+{07:47:04.253} DEBG: [DXGI]       > WM_SIZE 0, 1920x1080
+{07:47:04.253} DEBG: [DXGI]       > [RWinOnWmSize] requested 1920x1080
+{07:47:04.253} DEBG: [DXGI]       > [RWinOnWmSize] swapchain was 1920x1080 fullscreen
+{07:47:04.256} DEBG: [DXGI]       > [RWinOnWmSize] swapchain changed to 1920x1080 fullscreen
+{07:47:04.257} INFO: [TexMgr]     > Max texture dimensions: 16384x16384x2048
+{07:47:04.276} INFO: [MatMgr]     > Number of supported techniques: 61
+{07:47:04.917} INFO: [MatMgr]     > Material pack 'optimized_dx11.mp' loaded.
+{07:47:05.066} ERRR: [Parser]     > Param 2 in function glod() is not a float
+{07:47:05.066} ERRR: [Parser]     > Param 2 in function glod() is not a float
+{07:47:05.180} INFO: [INFO]       > Texture streaming buffer set to 2000MB
+{07:47:05.181} INFO: [Video]      > //Video settings:
+{07:47:05.181} INFO: [Video]      > Resolution(1920,1080)
+{07:47:05.181} INFO: [Video]      > Fullscreen()
+{07:47:05.181} INFO: [Video]      > Borderless()
+{07:47:05.181} INFO: [Video]      > Monitor(0)
+{07:47:05.181} INFO: [Video]      > TextureQuality("High")
+{07:47:05.181} INFO: [Video]      > VisRange(2.20, 2.20)
+{07:47:05.181} INFO: [Video]      > ShadowMapSize(2048)
+{07:47:05.181} INFO: [Video]      > SpotShadowMapSize(2048)
+{07:47:05.181} INFO: [Video]      > GammaFloat(1.00)
+{07:47:05.181} INFO: [Video]      > GrassQuality(0)
+{07:47:05.181} INFO: [Video]      > NvidiaEffects(1, 1, 1)
+{07:47:05.181} INFO: [Video]      > AmbientOcclusion(1)
+{07:47:05.181} INFO: [Video]      > MotionBlur(0)
+{07:47:05.181} INFO: [Video]      > AntiAliasing(1)
+{07:47:05.181} INFO: [Video]      > DisableDWM(1)
+{07:47:05.181} INFO: [Video]      > 3dtvSettings(-0.150000, 0.000000)
+{07:47:05.181} INFO: [Video]      > Version(1)
+{07:47:05.181} INFO: [INFO]       > >>>>> Audio init
+{07:47:05.226} INFO: [INFO]       > FMOD::Driver: Speakers (Razer BlackShark V2 Pro)
+{07:47:05.228} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM8
+{07:47:05.228} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM16
+{07:47:05.228} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM24
+{07:47:05.228} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCM32
+{07:47:05.228} INFO: [INFO]       > DriverCaps: FMOD_CAPS_OUTPUT_FORMAT_PCMFLOAT
+{07:47:05.242} INFO: [INFO]       > FMOD is using (8) output type.
+{07:47:05.242} INFO: [INFO]       > FMOD Software Format Info:
+{07:47:05.242} INFO: [INFO]       | 	Out Sample Rate: <48000>
+{07:47:05.242} INFO: [INFO]       | 	Format: <5>
+{07:47:05.242} INFO: [INFO]       | 	Out Channels: <2>
+{07:47:05.242} INFO: [INFO]       | 	Max Input Channels: <8>
+{07:47:05.242} INFO: [INFO]       | 	Bits: <32>
+{07:47:05.242} INFO: [INFO]       > FMOD Mixer blocksize        = 21.33 ms
+{07:47:05.242} INFO: [INFO]       > FMOD Mixer blocks count     = 4
+{07:47:05.242} INFO: [INFO]       > FMOD Mixer Total buffer size = 85.33 ms
+{07:47:05.242} INFO: [INFO]       > FMOD Mixer Average Latency  = 53.33 ms
+{07:47:05.243} INFO: [Audio]      > //Audio settings:
+{07:47:05.243} INFO: [Audio]      > API("FMOD")
+{07:47:05.243} INFO: [Audio]      > MixFrequency(48000)
+{07:47:05.243} INFO: [Audio]      > Channels(40)
+{07:47:05.243} INFO: [Audio]      > Quality3D("high")
+{07:47:05.243} INFO: [Audio]      > MaxVolume(40)
+{07:47:05.243} INFO: [Audio]      > FXVolume(40)
+{07:47:05.243} INFO: [Audio]      > WaveVolume(40)
+{07:47:05.243} INFO: [Audio]      > SpeechVolume(40)
+{07:47:05.243} INFO: [Audio]      > MovieVolume(40)
+{07:47:05.243} INFO: [Audio]      > MovieVolumeSource(0)
+{07:47:05.243} INFO: [Audio]      > GlobalSettings("")
+{07:47:05.243} INFO: [Audio]      > ReverbChannels(1)
+{07:47:05.243} INFO: [Audio]      > MixerBlocksCount(0)
+{07:47:05.243} INFO: [Audio]      > 
+{07:47:05.283} INFO: [ResPack]    > Free resource loading disabled
+{07:47:10.664} INFO: [INFO]       > [Input] Keyboard 0 enumerated: intance_name = Keyboard, product_name = Keyboard, GUID = {6f1d2b61-d5a0-11cf-bfc7-444553540000}
+{07:47:10.711} INFO: [INFO]       > [CInput::SelectKeyboard] Keyboard 0 selected: Keyboard, Keyboard
+{07:47:10.794} INFO: [INFO]       > [SDL::InitSDL] InitSDL successed!
+{07:47:10.844} INFO: [Game]       > Game version: 1.42.0
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function Hidden() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function Hidden() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function Hidden() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:18.244} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:47:19.259} ERRR: [RestClient] > SendRequest failed. Unable to establish connection with server. Check you have a working network connection.
+{07:48:01.308} ERRR: [RTTI]       > ERROR in preset file humanai_dlc39.pre --- duplicated preset name enc_gaas_oldtown_new_enemy_02 in group Character
+{07:48:01.309} ERRR: [RTTI]       > ERROR in preset file humanai_dlc39.pre --- duplicated preset name Volatile_Final in group Character
+{07:48:01.340} ERRR: [RTTI]       > ERROR in preset file physicalswitchdi_dlc17.pre --- duplicated preset name IT_crate_opening in group Type
+{07:48:03.239} ERRR: [Parser]     > Param 0 in function BySpikes() is not a bool
+{07:48:03.826} ERRR: [Quests]     > [65535] [Quests::QuestManager::ReadFileDefinitions] There aren't any root nodes in the file - probably invalid xml contents
+{07:48:03.826} ERRR: [Quests]     > [65535] Failed reading quest definition from file data/quests/stadium/stadium_arena2_quest.xml
+{07:48:06.014} ERRR: [Quests]     > [65535] [Quests::QuestManager::ReadFileDefinitions] There aren't any root nodes in the file - probably invalid xml contents
+{07:48:06.014} ERRR: [Quests]     > [65535] Failed reading quest definition from file data/quests/stadium/stadium_arena2_quest.xml
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function Hidden() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function Hidden() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function Hidden() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.400} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.401} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.401} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.401} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.401} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.401} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.401} ERRR: [Parser]     > Param 0 in function ID() is not a string
+{07:48:08.490} ERRR: [RestClient] > SendRequest failed. Unable to establish connection with server. Check you have a working network connection.
+{07:48:13.303} INFO: [INFO]       > >>>>> Replicate start - local player with session <-493086225>
+{07:48:13.923} ERRR: [Quests]     > [0] [Quests::QuestManager::ReadFileDefinitions] There aren't any root nodes in the file - probably invalid xml contents
+{07:48:13.923} ERRR: [Quests]     > [0] Failed reading quest definition from file data/quests/stadium/stadium_arena2_quest.xml
+{07:48:17.755} INFO: [INFO]       > >>>>> <-493086225> Changing level from <> to <wasteland>
+{07:48:17.792} INFO: [INFO]       > >>>>> <-493086225> Loading level <wasteland>
+{07:48:25.104} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from airplane_fatin_attractor.dat took 0ms 
+{07:48:25.104} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from airplane_tolga_attractor.dat took 0ms 
+{07:48:25.105} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from alberto_sitting_mimics_attractor.dat took 0ms 
+{07:48:25.106} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from armored_idle_attractor_attractor.dat took 0ms 
+{07:48:25.124} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from car_fighting_attractor.dat took 0ms 
+{07:48:25.125} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from carry_npc_attractor.dat took 0ms 
+{07:48:25.125} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from cin_lj_briefing_post_lj_attractor.dat took 0ms 
+{07:48:25.126} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from cin_lj_briefing_pre_lj_attractor.dat took 0ms 
+{07:48:25.126} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from dara_attractor.dat took 0ms 
+{07:48:25.127} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from dead_attractor.dat took 0ms 
+{07:48:25.128} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_hand_warming_02_attractor.dat took 0ms 
+{07:48:25.128} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_hideout_door_attractor.dat took 0ms 
+{07:48:25.129} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_hideout_door_no_handle_attractor.dat took 0ms 
+{07:48:25.130} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_hideout_door_ot01_attractor.dat took 0ms 
+{07:48:25.130} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_hideout_ot_door_i_spawner_attractor.dat took 0ms 
+{07:48:25.131} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_hideout_village_door_attractor.dat took 0ms 
+{07:48:25.132} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_melee_fighter_sharpen_machete_on_box_01_attractor.dat took 0ms 
+{07:48:25.132} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_melee_fighter_sharpen_machete_on_box_01_idle_attractor.dat took 0ms 
+{07:48:25.133} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_melee_fighter_sharpen_machete_on_box_01_noitem_attractor.dat took 0ms 
+{07:48:25.133} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_melee_fighter_sitting_with_machete_01_attractor.dat took 0ms 
+{07:48:25.134} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_melee_fighter_sitting_with_machete_01_noitem_attractor.dat took 0ms 
+{07:48:25.134} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_sitting_by_wall_1_attractor.dat took 0ms 
+{07:48:25.135} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_smoking_sitting_1_attractor.dat took 0ms 
+{07:48:25.135} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_stand_01_attractor.dat took 0ms 
+{07:48:25.136} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_stand_with_gun_01_guard_attractor.dat took 0ms 
+{07:48:25.136} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_npc_stand_with_gun_01_noitem_attractor.dat took 0ms 
+{07:48:25.137} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_grid_attack_metal_01_attractor.dat took 0ms 
+{07:48:25.138} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_grid_attack_metal_01_strong_attractor.dat took 0ms 
+{07:48:25.138} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_grid_attack_metal_02_attractor.dat took 0ms 
+{07:48:25.139} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_grid_attack_metal_03_attractor.dat took 0ms 
+{07:48:25.139} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_grid_attack_metal_04_attractor.dat took 0ms 
+{07:48:25.140} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_grid_attack_metal_04_strong_attractor.dat took 0ms 
+{07:48:25.140} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_rage_random_01_attractor.dat took 0ms 
+{07:48:25.141} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_wall_attack_metal_01_attractor.dat took 0ms 
+{07:48:25.141} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_wall_attack_metal_02_attractor.dat took 0ms 
+{07:48:25.142} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_wall_attack_metal_03_attractor.dat took 0ms 
+{07:48:25.143} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_wall_attack_metal_04_attractor.dat took 0ms 
+{07:48:25.143} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_wall_attack_wooden_01_attractor.dat took 0ms 
+{07:48:25.144} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enc_zombie_wardrobe_attack_wooden_01_attractor.dat took 0ms 
+{07:48:25.144} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_bus_rescue_attractor.dat took 0ms 
+{07:48:25.145} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_escrot_cover_attractor.dat took 0ms 
+{07:48:25.145} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_escrot_defense_attractor.dat took 0ms 
+{07:48:25.146} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_escrot_delivery_attractor.dat took 0ms 
+{07:48:25.146} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_escrot_dialog_attractor.dat took 0ms 
+{07:48:25.147} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_escrot_strafe_attractor.dat took 0ms 
+{07:48:25.148} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_guard_attractor.dat took 0ms 
+{07:48:25.148} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_guard_stationary_attractor.dat took 0ms 
+{07:48:25.149} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_in_wardrobe_scared_attractor.dat took 0ms 
+{07:48:25.149} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_in_wardrobe_thanks_attractor.dat took 0ms 
+{07:48:25.150} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_in_wardrobe_walk_away_attractor.dat took 0ms 
+{07:48:25.150} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_kicking_guard_01_attractor.dat took 0ms 
+{07:48:25.151} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_kicking_guard_02_attractor.dat took 0ms 
+{07:48:25.151} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_02_attractor.dat took 0ms 
+{07:48:25.152} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_02_finish_attractor.dat took 0ms 
+{07:48:25.153} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_02_lp_attractor.dat took 0ms 
+{07:48:25.153} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_attractor.dat took 0ms 
+{07:48:25.154} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_free_02_attractor.dat took 0ms 
+{07:48:25.154} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_free_02_idle_attractor.dat took 0ms 
+{07:48:25.155} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_free_attractor.dat took 0ms 
+{07:48:25.156} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_free_idle_attractor.dat took 0ms 
+{07:48:25.156} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_kicking_attractor.dat took 0ms 
+{07:48:25.157} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_kicking_lp_attractor.dat took 0ms 
+{07:48:25.157} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_kicking_thanks_attractor.dat took 0ms 
+{07:48:25.158} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_kicking_thanks_idle_attractor.dat took 0ms 
+{07:48:25.158} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_kicking_thanks_lp_attractor.dat took 0ms 
+{07:48:25.159} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_kicking_thanks_lp_idle_attractor.dat took 0ms 
+{07:48:25.160} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_prisoner_lp_attractor.dat took 0ms 
+{07:48:25.160} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_pursuitrepair_loop_attractor.dat took 0ms 
+{07:48:25.161} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_pursuitrepair_talk_attractor.dat took 0ms 
+{07:48:25.161} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_shop_scavenger_searching_after_attractor.dat took 0ms 
+{07:48:25.162} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_shop_scavenger_searching_attractor.dat took 0ms 
+{07:48:25.163} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_shop_scavenger_searching_dialog_attractor.dat took 0ms 
+{07:48:25.163} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_thanks_calm_attractor.dat took 0ms 
+{07:48:25.164} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_trap_frightened_after_thanks_attractor.dat took 0ms 
+{07:48:25.164} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_trap_frightened_attractor.dat took 0ms 
+{07:48:25.165} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from encounter_trap_frightened_thanks_attractor.dat took 0ms 
+{07:48:25.166} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enemy_ak47_by_wall_01_attractor.dat took 0ms 
+{07:48:25.166} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enemy_ak47_patrol_01_attractor.dat took 0ms 
+{07:48:25.167} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enemy_ak47_patrol_01_no_attack_attractor.dat took 0ms 
+{07:48:25.167} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enemy_ak47_patrol_02_attractor.dat took 0ms 
+{07:48:25.168} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enemy_ak47_sitting_on_ledge_01_attractor.dat took 0ms 
+{07:48:25.169} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from enemy_shotgun_sitting_on_ledge_01_attractor.dat took 0ms 
+{07:48:25.169} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from example_lean_attractor.dat took 0ms 
+{07:48:25.170} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from example_looking_far_attractor.dat took 0ms 
+{07:48:25.170} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from ezgi_camping_end_after_attractor.dat took 0ms 
+{07:48:25.171} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from ezgi_camping_end_attractor.dat took 0ms 
+{07:48:25.171} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from ezgi_camping_end_scared_attractor.dat took 0ms 
+{07:48:25.172} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from farmer_stand_attractor.dat took 0ms 
+{07:48:25.172} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from girl_hopeless_floor_attractor.dat took 0ms 
+{07:48:25.173} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from ground_idle_attractor.dat took 0ms 
+{07:48:25.173} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from hr_hum_01_attractor.dat took 0ms 
+{07:48:25.174} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from hr_hum_02_attractor.dat took 0ms 
+{07:48:25.175} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from hr_hum_03_attractor.dat took 0ms 
+{07:48:25.175} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from hr_inf_01_attractor.dat took 0ms 
+{07:48:25.176} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from hr_inf_02_attractor.dat took 0ms 
+{07:48:25.176} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from hr_zm_01_attractor.dat took 0ms 
+{07:48:25.177} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from hr_zm_02_attractor.dat took 0ms 
+{07:48:25.177} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from hr_zm_03_attractor.dat took 0ms 
+{07:48:25.178} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from hr_zm_04_attractor.dat took 0ms 
+{07:48:25.178} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from human_to_viral_01_alarm_attractor.dat took 0ms 
+{07:48:25.179} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from human_to_viral_01_attractor.dat took 0ms 
+{07:48:25.179} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from human_transforrm_to_viral_by_wall_02_alarm_attractor.dat took 0ms 
+{07:48:25.180} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from human_transforrm_to_viral_by_wall_02_attractor.dat took 0ms 
+{07:48:25.180} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from human_transforrm_to_viral_sitting_01_attractor.dat took 0ms 
+{07:48:25.181} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from human_transforrm_to_viral_standing_01_alarm_attractor.dat took 0ms 
+{07:48:25.182} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from human_transforrm_to_viral_standing_01_attractor.dat took 0ms 
+{07:48:25.182} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from jasir_before_burned_trailer_attractor.dat took 0ms 
+{07:48:25.183} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from jasir_waterfacility_end_attractor.dat took 0ms 
+{07:48:25.184} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_drawing_01_attractor.dat took 0ms 
+{07:48:25.184} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_handheld_game_01_attractor.dat took 0ms 
+{07:48:25.185} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_hopscotch_attractor.dat took 0ms 
+{07:48:25.186} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_hopscotch_water_attractor.dat took 0ms 
+{07:48:25.186} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_kicking_ball_01_attractor.dat took 0ms 
+{07:48:25.187} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_lifeplace_drawing_on_the_wall_01_attractor.dat took 0ms 
+{07:48:25.188} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_lifeplace_drawing_on_the_wall_02_attractor.dat took 0ms 
+{07:48:25.188} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_lifeplace_sitting_tired_01_attractor.dat took 0ms 
+{07:48:25.189} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_lifeplace_swing_attractor.dat took 0ms 
+{07:48:25.189} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_listening_01_attractor.dat took 0ms 
+{07:48:25.190} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_listening_02_attractor.dat took 0ms 
+{07:48:25.191} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_listening_03_attractor.dat took 0ms 
+{07:48:25.192} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_lying_sick_bed_01_attractor.dat took 0ms 
+{07:48:25.192} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_lying_sick_bed_01_dynamic_attractor.dat took 0ms 
+{07:48:25.193} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_qg_stick_01_attractor.dat took 0ms 
+{07:48:25.194} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_qg_toysword_01_attractor.dat took 0ms 
+{07:48:25.194} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_sitting_playing_teddybear_attractor.dat took 0ms 
+{07:48:25.195} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_sleeping_bed_01_attractor.dat took 0ms 
+{07:48:25.196} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_sleeping_bed_01_dynamic_attractor.dat took 0ms 
+{07:48:25.196} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_sleeping_teddybear_attractor.dat took 0ms 
+{07:48:25.197} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_throwing_rock_01_attractor.dat took 0ms 
+{07:48:25.197} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_walk_in_circle_attractor.dat took 0ms 
+{07:48:25.198} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from k_npc_walk_in_circle_water_attractor.dat took 0ms 
+{07:48:25.198} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_acolyte_orcan_crossbow_attractor.dat took 0ms 
+{07:48:25.199} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_acolythe_attractor.dat took 0ms 
+{07:48:25.200} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_airplane_polat_attractor.dat took 0ms 
+{07:48:25.200} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_camping_a_dara_after_attractor.dat took 0ms 
+{07:48:25.201} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_camping_a_dara_attractor.dat took 0ms 
+{07:48:25.201} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_camping_ezgi_after_attractor.dat took 0ms 
+{07:48:25.202} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_camping_ezgi_attractor.dat took 0ms 
+{07:48:25.202} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_dying_lunch_attractor.dat took 0ms 
+{07:48:25.228} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_ezgi_oasis_after_attractor.dat took 0ms 
+{07:48:25.229} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_ezgi_oasis_attractor.dat took 0ms 
+{07:48:25.229} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_generic_sitting_sad_attractor.dat took 0ms 
+{07:48:25.230} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_generic_standing_talk_foldedarms_attractor.dat took 0ms 
+{07:48:25.231} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_generic_standing_talk_foldedarms_track_attractor.dat took 0ms 
+{07:48:25.231} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_hillhouse_atilla_drunk_attractor.dat took 0ms 
+{07:48:25.232} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_jasir_waterfacility_rerecord_attractor.dat took 0ms 
+{07:48:25.232} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_jasirfarm_guard_attractor.dat took 0ms 
+{07:48:25.233} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_jasirfarm_guard_no_dialog_attractor.dat took 0ms 
+{07:48:25.234} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_john_sitting_watching_attractor.dat took 0ms 
+{07:48:25.234} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_mother_idle_attractor.dat took 0ms 
+{07:48:25.235} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_orleno_sitting_watching_attractor.dat took 0ms 
+{07:48:25.235} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_prisoner_free_attractor.dat took 0ms 
+{07:48:25.236} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_prisoner_free_dialog_attractor.dat took 0ms 
+{07:48:25.236} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_radioboy_a_attractor.dat took 0ms 
+{07:48:25.237} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_radioboy_b_attractor.dat took 0ms 
+{07:48:25.237} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_radioboy_c_attractor.dat took 0ms 
+{07:48:25.238} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_revenge_a_attractor.dat took 0ms 
+{07:48:25.238} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_revenge_end_erkan_01_attractor.dat took 0ms 
+{07:48:25.239} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_rocket_wagon_attractor.dat took 0ms 
+{07:48:25.240} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_rocket_wagon_fatin_attractor.dat took 0ms 
+{07:48:25.240} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_rocket_wagon_red_fatin_attractor.dat took 0ms 
+{07:48:25.241} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_rocket_wagon_tolga_attractor.dat took 0ms 
+{07:48:25.241} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_stronghold_orcan_attractor.dat took 0ms 
+{07:48:25.242} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_stronghold_orcan_dead_attractor.dat took 0ms 
+{07:48:25.242} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_trainrobbery_fatin_attractor.dat took 0ms 
+{07:48:25.243} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_trainrobbery_fatin_post_attractor.dat took 0ms 
+{07:48:25.243} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_trainrobbery_tolga_attractor.dat took 0ms 
+{07:48:25.244} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_trainrobbery_tolga_post_attractor.dat took 0ms 
+{07:48:25.244} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_unfinishedstory_atilla_attractor.dat took 0ms 
+{07:48:25.245} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_unfinishedstory_atilla_ending_attractor.dat took 0ms 
+{07:48:25.246} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_w_npc_angry_attractor.dat took 0ms 
+{07:48:25.246} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lp_warefacility_bekir_attractor.dat took 0ms 
+{07:48:25.247} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from lying_attractor.dat took 0ms 
+{07:48:25.248} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_ak47_lp_dialog_01_attractor.dat took 0ms 
+{07:48:25.248} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_ak47_lp_dialog_02_attractor.dat took 0ms 
+{07:48:25.249} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_ak47_training_01_attractor.dat took 0ms 
+{07:48:25.250} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_alfie_quest_giver_radio_attractor.dat took 0ms 
+{07:48:25.250} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_balcony_b_dialog_attractor.dat took 0ms 
+{07:48:25.251} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_barrier_attractor.dat took 0ms 
+{07:48:25.251} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_baseball_door_opening_attractor.dat took 0ms 
+{07:48:25.252} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_blacksmith_01_attractor.dat took 0ms 
+{07:48:25.253} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_body_disposal_b_loop_attractor.dat took 0ms 
+{07:48:25.253} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_chair_orlenos_assistant_01_attractor.dat took 0ms 
+{07:48:25.254} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_chassis_repair_01_attractor.dat took 0ms 
+{07:48:25.254} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_compressor_repair_attractor.dat took 0ms 
+{07:48:25.255} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_console_operator_after_attractor.dat took 0ms 
+{07:48:25.255} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_console_operator_attractor.dat took 0ms 
+{07:48:25.256} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_crowd_reactions_a_attractor.dat took 0ms 
+{07:48:25.256} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_crowd_reactions_b_attractor.dat took 0ms 
+{07:48:25.257} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_crowd_reactions_c_attractor.dat took 0ms 
+{07:48:25.257} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_01_attractor.dat took 0ms 
+{07:48:25.258} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_02_attractor.dat took 0ms 
+{07:48:25.258} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_03_attractor.dat took 0ms 
+{07:48:25.259} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_04_attractor.dat took 0ms 
+{07:48:25.259} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_05_attractor.dat took 0ms 
+{07:48:25.260} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_06_attractor.dat took 0ms 
+{07:48:25.260} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_07_attractor.dat took 0ms 
+{07:48:25.261} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_08_attractor.dat took 0ms 
+{07:48:25.261} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_09_attractor.dat took 0ms 
+{07:48:25.262} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_10_attractor.dat took 0ms 
+{07:48:25.262} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_11_attractor.dat took 0ms 
+{07:48:25.263} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_12_attractor.dat took 0ms 
+{07:48:25.263} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_13_attractor.dat took 0ms 
+{07:48:25.264} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_14_attractor.dat took 0ms 
+{07:48:25.264} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dead_bodies_attractor.dat took 0ms 
+{07:48:25.265} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_drinking_alcohol_01_attractor.dat took 0ms 
+{07:48:25.265} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_drinking_alcohol_01_dynamic_attractor.dat took 0ms 
+{07:48:25.266} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_dynamic_door_closing_01_attractor.dat took 0ms 
+{07:48:25.266} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_engine_repair_attractor.dat took 0ms 
+{07:48:25.267} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_escort_dialog_01_attractor.dat took 0ms 
+{07:48:25.267} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_escort_dialog_01_from_search_in_trash_attractor.dat took 0ms 
+{07:48:25.268} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_escort_dialog_01_from_storyteller_siting_dialog_attractor.dat took 0ms 
+{07:48:25.268} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_escort_dialog_02_attractor.dat took 0ms 
+{07:48:25.269} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_escort_salesman_attractor.dat took 0ms 
+{07:48:25.269} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_escort_salesman_delivery_attractor.dat took 0ms 
+{07:48:25.270} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_escort_warewolf_attractor.dat took 0ms 
+{07:48:25.270} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_gas_welding_01_attractor.dat took 0ms 
+{07:48:25.271} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_gas_welding_01_instant_attractor.dat took 0ms 
+{07:48:25.271} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generator_switch_01_attractor.dat took 0ms 
+{07:48:25.272} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generator_switch_02_attractor.dat took 0ms 
+{07:48:25.272} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_depressed_sit_to_stand_mimics_attractor.dat took 0ms 
+{07:48:25.274} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_desk_talk_attractor.dat took 0ms 
+{07:48:25.274} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_sit_to_stand_mimics_attractor.dat took 0ms 
+{07:48:25.274} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_sitting_machete_sharpening_mimics_attractor.dat took 0ms 
+{07:48:25.274} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_sitting_mimics_attractor.dat took 0ms 
+{07:48:25.276} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_smoking_stand_mimics_attractor.dat took 0ms 
+{07:48:25.276} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_stand_machete_attractor.dat took 0ms 
+{07:48:25.277} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_stand_machete_noweapon_attractor.dat took 0ms 
+{07:48:25.278} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_standing_baseballbat_mimics_attractor.dat took 0ms 
+{07:48:25.278} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_standing_machete_mimics_attractor.dat took 0ms 
+{07:48:25.279} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_standing_machete_mimics_noweapon_attractor.dat took 0ms 
+{07:48:25.279} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_standing_machete_mimics_short_attractor.dat took 0ms 
+{07:48:25.280} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_generic_standing_sad_mimics_attractor.dat took 0ms 
+{07:48:25.281} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_grinder_sharpen_machete_attractor.dat took 0ms 
+{07:48:25.282} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_guard_pitchfork_sitting_01_attractor.dat took 0ms 
+{07:48:25.282} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_guard_pitchfork_sitting_02_attractor.dat took 0ms 
+{07:48:25.283} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_guard_pitchfork_standing_01_attractor.dat took 0ms 
+{07:48:25.283} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_gym_training_01_attractor.dat took 0ms 
+{07:48:25.284} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_hand_warming_01_attractor.dat took 0ms 
+{07:48:25.284} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_hand_warming_02_attractor.dat took 0ms 
+{07:48:25.285} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_hideout_door_attractor.dat took 0ms 
+{07:48:25.285} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_hoe_raking_01_attractor.dat took 0ms 
+{07:48:25.286} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_hoe_raking_dynamic_01_attractor.dat took 0ms 
+{07:48:25.286} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_jared_storekeeper_attractor.dat took 0ms 
+{07:48:25.287} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_khaliq_stand_hopeless_01_no_interact_attractor.dat took 0ms 
+{07:48:25.287} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_kicking_melee_guard_attractor.dat took 0ms 
+{07:48:25.288} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_ledge_scared_01_attractor.dat took 0ms 
+{07:48:25.288} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_ledge_scared_01_wasteland_attractor.dat took 0ms 
+{07:48:25.289} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_lifeplace_stand_short_01_attractor.dat took 0ms 
+{07:48:25.290} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_light_switch_01_attractor.dat took 0ms 
+{07:48:25.290} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_lp_dialog_01_attractor.dat took 0ms 
+{07:48:25.291} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_lp_dialog_02_attractor.dat took 0ms 
+{07:48:25.291} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_lp_dialog_03_attractor.dat took 0ms 
+{07:48:25.292} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_lp_reapairing_hammer_01_attractor.dat took 0ms 
+{07:48:25.292} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_lumberman_attractor.dat took 0ms 
+{07:48:25.293} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_melee_fighter_01_alarming_attractor.dat took 0ms 
+{07:48:25.293} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_melee_fighter_01_alarming_lp_attractor.dat took 0ms 
+{07:48:25.294} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_melee_fighter_02_alarming_attractor.dat took 0ms 
+{07:48:25.294} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_melee_fighter_02_alarming_lp_attractor.dat took 0ms 
+{07:48:25.295} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_melee_fighter_crouch_with_matchete_01_attractor.dat took 0ms 
+{07:48:25.295} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_melee_fighter_thanks_with_weapon_01_attractor.dat took 0ms 
+{07:48:25.296} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_melee_fighter_thanks_with_weapon_01_usage_attractor.dat took 0ms 
+{07:48:25.296} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_melee_fighter_wounded_trap_attractor.dat took 0ms 
+{07:48:25.297} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_peasant_pitchfork_01_attractor.dat took 0ms 
+{07:48:25.297} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_peasant_shovel_01_attractor.dat took 0ms 
+{07:48:25.298} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_pile_of_dung_02_attractor.dat took 0ms 
+{07:48:25.298} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_pipe_door_opening_attractor.dat took 0ms 
+{07:48:25.299} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_praying_excited_01_attractor.dat took 0ms 
+{07:48:25.299} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_praying_normal_01_attractor.dat took 0ms 
+{07:48:25.300} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_praying_normal_02_attractor.dat took 0ms 
+{07:48:25.300} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_praying_normal_03_attractor.dat took 0ms 
+{07:48:25.301} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_praying_normal_04_attractor.dat took 0ms 
+{07:48:25.301} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_push_ups_01_attractor.dat took 0ms 
+{07:48:25.302} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_ak47_generic_01_attractor.dat took 0ms 
+{07:48:25.303} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_camper_door_lean_out_01_attractor.dat took 0ms 
+{07:48:25.303} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_door_lean_out_01_ali_attractor.dat took 0ms 
+{07:48:25.304} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_door_lean_out_01_attractor.dat took 0ms 
+{07:48:25.304} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_door_lean_out_01_mimics_attractor.dat took 0ms 
+{07:48:25.305} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_door_lean_out_right_01_attractor.dat took 0ms 
+{07:48:25.305} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_dynamic_door_lean_out_01_attractor.dat took 0ms 
+{07:48:25.306} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_dynamic_door_lean_out_01_mimics_attractor.dat took 0ms 
+{07:48:25.306} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_dynamic_door_lean_out_02_attractor.dat took 0ms 
+{07:48:25.307} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_dynamic_door_lean_out_right_01_attractor.dat took 0ms 
+{07:48:25.307} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_generic_01_attractor.dat took 0ms 
+{07:48:25.308} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_sitting2stand_hopeless_01_attractor.dat took 0ms 
+{07:48:25.308} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_sitting_generic_01_attractor.dat took 0ms 
+{07:48:25.309} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_sitting_hopeless_01_attractor.dat took 0ms 
+{07:48:25.310} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_sleeping_mattres_01_attractor.dat took 0ms 
+{07:48:25.310} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_sleeping_mattres_01_dynamic_attractor.dat took 0ms 
+{07:48:25.311} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_stand_hopeless_01_attractor.dat took 0ms 
+{07:48:25.311} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_stand_hopeless_01_no_interact_attractor.dat took 0ms 
+{07:48:25.312} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_qg_terrified_jasir_01_attractor.dat took 0ms 
+{07:48:25.312} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_crafty_attractor.dat took 0ms 
+{07:48:25.313} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_desk_attractor.dat took 0ms 
+{07:48:25.313} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_desk_firecrackers_attractor.dat took 0ms 
+{07:48:25.314} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_generic_01_attractor.dat took 0ms 
+{07:48:25.315} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_generic_02_attractor.dat took 0ms 
+{07:48:25.315} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_generic_03_attractor.dat took 0ms 
+{07:48:25.316} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_haker_attractor.dat took 0ms 
+{07:48:25.316} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_prison_attractor.dat took 0ms 
+{07:48:25.317} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_radio_attractor.dat took 0ms 
+{07:48:25.317} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_relaxed_attractor.dat took 0ms 
+{07:48:25.318} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_sitting_generic_01_attractor.dat took 0ms 
+{07:48:25.318} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_sitting_generic_02_attractor.dat took 0ms 
+{07:48:25.319} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_sitting_generic_03_attractor.dat took 0ms 
+{07:48:25.319} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_weapon_attractor.dat took 0ms 
+{07:48:25.320} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_quest_giver_weapon_item_attractor.dat took 0ms 
+{07:48:25.320} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_questboard_01_attractor.dat took 0ms 
+{07:48:25.321} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_radio_listening_01_attractor.dat took 0ms 
+{07:48:25.321} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_reading_sitting_01_attractor.dat took 0ms 
+{07:48:25.322} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_reaper_attractor.dat took 0ms 
+{07:48:25.322} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_repairing_hammer_02_attractor.dat took 0ms 
+{07:48:25.323} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_repairing_hammer_02_dynamic_attractor.dat took 0ms 
+{07:48:25.323} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_reward_thanks_no_weapon_01_attractor.dat took 0ms 
+{07:48:25.324} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_rifle_door_opening_attractor.dat took 0ms 
+{07:48:25.325} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_rifle_light_switch_01_attractor.dat took 0ms 
+{07:48:25.325} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_rifle_sitting_01_attractor.dat took 0ms 
+{07:48:25.326} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_rifle_sitting_sleeping_01_attractor.dat took 0ms 
+{07:48:25.326} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_seed_throwing_attractor.dat took 0ms 
+{07:48:25.327} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_shave_01_attractor.dat took 0ms 
+{07:48:25.327} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_shotgun_sitting_sleeping_01_attractor.dat took 0ms 
+{07:48:25.328} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_baseball_attractor.dat took 0ms 
+{07:48:25.328} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_by_fire_1_skinny_attractor.dat took 0ms 
+{07:48:25.329} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_drunk_01_attractor.dat took 0ms 
+{07:48:25.329} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_drunk_sleeping_attractor.dat took 0ms 
+{07:48:25.330} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_eating_canned_food_01_attractor.dat took 0ms 
+{07:48:25.330} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_eating_canned_food_dynamic_01_attractor.dat took 0ms 
+{07:48:25.331} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_eating_soup_01_attractor.dat took 0ms 
+{07:48:25.332} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_eating_soup_dynamic_01_attractor.dat took 0ms 
+{07:48:25.332} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_fax_listening_attractor.dat took 0ms 
+{07:48:25.333} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_guitar_playing_attractor.dat took 0ms 
+{07:48:25.333} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_playing_cards_attractor.dat took 0ms 
+{07:48:25.334} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_playing_cards_dynamic_attractor.dat took 0ms 
+{07:48:25.334} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_playing_toy_car_attractor.dat took 0ms 
+{07:48:25.335} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_radio_listening_02_attractor.dat took 0ms 
+{07:48:25.335} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sitting_radio_listening_attractor.dat took 0ms 
+{07:48:25.336} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_sleeping_bed_01_attractor.dat took 0ms 
+{07:48:25.336} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_standing_fishing_attractor.dat took 0ms 
+{07:48:25.337} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_storekeeper_01_attractor.dat took 0ms 
+{07:48:25.337} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_table_checking_docs_01_attractor.dat took 0ms 
+{07:48:25.338} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_table_writing_01_attractor.dat took 0ms 
+{07:48:25.338} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_test_thanks_attractor.dat took 0ms 
+{07:48:25.339} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_thanks_no_weapon_01_attractor.dat took 0ms 
+{07:48:25.339} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_warmup_attractor.dat took 0ms 
+{07:48:25.340} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_wash_01_attractor.dat took 0ms 
+{07:48:25.341} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_wash_02_attractor.dat took 0ms 
+{07:48:25.341} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_weelchair_attractor.dat took 0ms 
+{07:48:25.342} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from m_npc_weelchair_no_leg_attractor.dat took 0ms 
+{07:48:25.342} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_a_corpse_a_attractor.dat took 0ms 
+{07:48:25.343} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_a_corpse_b_attractor.dat took 0ms 
+{07:48:25.343} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_a_corpse_c_attractor.dat took 0ms 
+{07:48:25.344} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_b_corpse_a_attractor.dat took 0ms 
+{07:48:25.344} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_b_corpse_b_attractor.dat took 0ms 
+{07:48:25.345} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_b_corpse_c_attractor.dat took 0ms 
+{07:48:25.345} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_a_attractor.dat took 0ms 
+{07:48:25.346} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_b_attractor.dat took 0ms 
+{07:48:25.347} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_c_attractor.dat took 0ms 
+{07:48:25.347} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_d_attractor.dat took 0ms 
+{07:48:25.348} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_e_attractor.dat took 0ms 
+{07:48:25.348} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_f_attractor.dat took 0ms 
+{07:48:25.349} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_g_attractor.dat took 0ms 
+{07:48:25.349} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_h_attractor.dat took 0ms 
+{07:48:25.350} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_i_attractor.dat took 0ms 
+{07:48:25.350} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_j_attractor.dat took 0ms 
+{07:48:25.351} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_k_attractor.dat took 0ms 
+{07:48:25.351} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_l_attractor.dat took 0ms 
+{07:48:25.352} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from man_c_corpse_m_attractor.dat took 0ms 
+{07:48:25.353} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from manhole_enc_hideout_01_attractor.dat took 0ms 
+{07:48:25.353} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from manhole_enc_hideout_asphalt_attractor.dat took 0ms 
+{07:48:25.354} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from manhole_enc_hideout_grass_attractor.dat took 0ms 
+{07:48:25.354} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from manhole_enc_hideout_no_ground_attractor.dat took 0ms 
+{07:48:25.355} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from meat_corps_a_attractor.dat took 0ms 
+{07:48:25.355} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from meat_corps_b_attractor.dat took 0ms 
+{07:48:25.356} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from melih_start_attractor.dat took 0ms 
+{07:48:25.356} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mother_closing_idle_attractor.dat took 0ms 
+{07:48:25.357} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mother_outro_walk_attractor.dat took 0ms 
+{07:48:25.357} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_by_wall_01_attractor.dat took 0ms 
+{07:48:25.358} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_door_attack_01_attractor.dat took 0ms 
+{07:48:25.358} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_door_attack_02_attractor.dat took 0ms 
+{07:48:25.359} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_door_attack_04_attractor.dat took 0ms 
+{07:48:25.359} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_door_hitting_attractor.dat took 0ms 
+{07:48:25.360} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_grate_attack_01_attractor.dat took 0ms 
+{07:48:25.360} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_grate_attack_02_attractor.dat took 0ms 
+{07:48:25.361} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_grate_attack_03_attractor.dat took 0ms 
+{07:48:25.362} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_grate_attack_04_attractor.dat took 0ms 
+{07:48:25.362} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_npc_balcony_a_attractor.dat took 0ms 
+{07:48:25.363} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_npc_balcony_b_attractor.dat took 0ms 
+{07:48:25.363} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_npc_balcony_b_dialog_attractor.dat took 0ms 
+{07:48:25.364} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_npc_gym_training_01_attractor.dat took 0ms 
+{07:48:25.364} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_npc_hoe_raking_01_attractor.dat took 0ms 
+{07:48:25.365} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_npc_push_ups_01_attractor.dat took 0ms 
+{07:48:25.365} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_npc_sitting_guitar_playing_attractor.dat took 0ms 
+{07:48:25.366} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_npc_smoking_standing_2_attractor.dat took 0ms 
+{07:48:25.367} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_sitting_01_attractor.dat took 0ms 
+{07:48:25.368} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_sitting_02_attractor.dat took 0ms 
+{07:48:25.369} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_sitting_motionless_attractor.dat took 0ms 
+{07:48:25.370} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_stand_leaning_01_attractor.dat took 0ms 
+{07:48:25.371} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_stand_reaching_01_attractor.dat took 0ms 
+{07:48:25.372} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_strong_by_wall_01_attractor.dat took 0ms 
+{07:48:25.372} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_strong_door_attack_01_attractor.dat took 0ms 
+{07:48:25.373} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_strong_door_attack_02_attractor.dat took 0ms 
+{07:48:25.374} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_strong_door_attack_02_doorsound_attractor.dat took 0ms 
+{07:48:25.374} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_strong_door_attack_04_attractor.dat took 0ms 
+{07:48:25.375} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_strong_door_hitting_attractor.dat took 0ms 
+{07:48:25.376} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_strong_metal_door_attack_01_attractor.dat took 0ms 
+{07:48:25.376} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_strong_wooden_door_attack_01_attractor.dat took 0ms 
+{07:48:25.377} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from mz_wooden_door_attack_01_attractor.dat took 0ms 
+{07:48:25.378} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_attractor_looking_around_attractor.dat took 0ms 
+{07:48:25.378} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_balcony_a_attractor.dat took 0ms 
+{07:48:25.379} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_balcony_b_attractor.dat took 0ms 
+{07:48:25.379} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_balcony_c_attractor.dat took 0ms 
+{07:48:25.380} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_baseball_hitting_door_noitem_attractor.dat took 0ms 
+{07:48:25.381} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_binoculars_lookout_180_attractor.dat took 0ms 
+{07:48:25.381} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_binoculars_lookout_180_fake_attractor.dat took 0ms 
+{07:48:25.382} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_binoculars_lookout_360_attractor.dat took 0ms 
+{07:48:25.383} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_binoculars_lookout_360_interact_attractor.dat took 0ms 
+{07:48:25.383} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_binoculars_lookout_90_attractor.dat took 0ms 
+{07:48:25.384} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_bodyguard_with_machete_attractor.dat took 0ms 
+{07:48:25.384} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_bulb_attractor.dat took 0ms 
+{07:48:25.385} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_cabinet_attractor.dat took 0ms 
+{07:48:25.386} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_calling_nervous_attractor.dat took 0ms 
+{07:48:25.386} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_chair_attractor.dat took 0ms 
+{07:48:25.387} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_chair_interact_attractor.dat took 0ms 
+{07:48:25.387} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_chair_prayer_attractor.dat took 0ms 
+{07:48:25.388} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_chair_sadness_attractor.dat took 0ms 
+{07:48:25.388} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_computer_attractor.dat took 0ms 
+{07:48:25.389} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_conversation_a_attractor.dat took 0ms 
+{07:48:25.389} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_drinking_sitting_1_attractor.dat took 0ms 
+{07:48:25.390} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_drunk_stand_a_attractor.dat took 0ms 
+{07:48:25.390} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_drunk_stand_b_attractor.dat took 0ms 
+{07:48:25.391} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_drunk_walk_a_attractor.dat took 0ms 
+{07:48:25.391} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_encounter_looting_01_attractor.dat took 0ms 
+{07:48:25.392} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_encounter_radio_attractor.dat took 0ms 
+{07:48:25.393} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_encounter_shop_radio_attractor.dat took 0ms 
+{07:48:25.394} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_encounter_storyteller_sitting_attractor.dat took 0ms 
+{07:48:25.394} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_encounter_storyteller_sitting_dialog_attractor.dat took 0ms 
+{07:48:25.395} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_encounter_storyteller_sitting_dialog_finish_attractor.dat took 0ms 
+{07:48:25.395} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_encounter_trap_defense_attractor.dat took 0ms 
+{07:48:25.396} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_encounter_trap_sitting_attractor.dat took 0ms 
+{07:48:25.396} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_encounter_trap_thanks_attractor.dat took 0ms 
+{07:48:25.397} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_garbage_attractor.dat took 0ms 
+{07:48:25.397} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_hugging_m_attractor.dat took 0ms 
+{07:48:25.398} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_hugging_w_attractor.dat took 0ms 
+{07:48:25.398} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_knees_attractor.dat took 0ms 
+{07:48:25.399} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_ladder_climbing_attractor.dat took 0ms 
+{07:48:25.399} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_laugh_a_attractor.dat took 0ms 
+{07:48:25.400} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_leaning_wall_attractor.dat took 0ms 
+{07:48:25.400} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_look_around_nervous_attractor.dat took 0ms 
+{07:48:25.401} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_looking_at_low_1_attractor.dat took 0ms 
+{07:48:25.402} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_looking_at_medium_1_attractor.dat took 0ms 
+{07:48:25.402} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_looking_at_medium_1_no_strong_attractor.dat took 0ms 
+{07:48:25.403} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_looking_at_medium_1_suicide_attractor.dat took 0ms 
+{07:48:25.403} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_looking_far_1_attractor.dat took 0ms 
+{07:48:25.404} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_looking_for_a_attractor.dat took 0ms 
+{07:48:25.404} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_man_weak_attractor.dat took 0ms 
+{07:48:25.405} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_mechanic_attractor.dat took 0ms 
+{07:48:25.406} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_melee_fighter_airdrop_searcher_01_lp_attractor.dat took 0ms 
+{07:48:25.406} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_melee_fighter_airdrop_searcher_01_noitem_attractor.dat took 0ms 
+{07:48:25.407} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_melee_fighter_car_repair_machete_01_lp_attractor.dat took 0ms 
+{07:48:25.407} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_melee_fighter_car_repair_machete_01_noitem_attractor.dat took 0ms 
+{07:48:25.408} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_melee_fighter_sharpen_machete_on_box_01_attractor.dat took 0ms 
+{07:48:25.408} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_melee_fighter_sharpen_machete_on_box_01_noitem_attractor.dat took 0ms 
+{07:48:25.409} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_melee_fighter_sitting_with_machete_01_attractor.dat took 0ms 
+{07:48:25.409} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_melee_fighter_sitting_with_machete_01_noitem_attractor.dat took 0ms 
+{07:48:25.410} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_pimp_walk_a_attractor.dat took 0ms 
+{07:48:25.410} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_playing_chess_a_attractor.dat took 0ms 
+{07:48:25.411} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_playing_chess_b_attractor.dat took 0ms 
+{07:48:25.411} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_rifle_stand_entrance_blocker_attractor.dat took 0ms 
+{07:48:25.412} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_rifle_stand_simple_attractor.dat took 0ms 
+{07:48:25.412} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_scratch_a_attractor.dat took 0ms 
+{07:48:25.413} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_screw_in_wall_a_attractor.dat took 0ms 
+{07:48:25.413} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_search_in_trash_1_attractor.dat took 0ms 
+{07:48:25.414} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_search_in_trash_1_finish_attractor.dat took 0ms 
+{07:48:25.414} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_search_in_trash_1_finish_not_strong_attractor.dat took 0ms 
+{07:48:25.415} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_search_in_trash_1_idle_attractor.dat took 0ms 
+{07:48:25.416} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_search_in_trash_1_idle_not_strong_attractor.dat took 0ms 
+{07:48:25.416} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_search_in_trash_1_not_strong_attractor.dat took 0ms 
+{07:48:25.417} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_search_in_trash_1_prepare_not_strong_attractor.dat took 0ms 
+{07:48:25.417} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sit_nervous_attractor.dat took 0ms 
+{07:48:25.418} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sitting_by_fire_1_attractor.dat took 0ms 
+{07:48:25.418} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sitting_by_fire_2_attractor.dat took 0ms 
+{07:48:25.419} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sitting_by_fire_3_attractor.dat took 0ms 
+{07:48:25.419} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sitting_by_fire_4_attractor.dat took 0ms 
+{07:48:25.420} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sitting_by_fire_5_attractor.dat took 0ms 
+{07:48:25.420} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sitting_by_wall_1_attractor.dat took 0ms 
+{07:48:25.421} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sitting_on_the_edge_attractor.dat took 0ms 
+{07:48:25.421} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sleeping_a_attractor.dat took 0ms 
+{07:48:25.422} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sleeping_b_attractor.dat took 0ms 
+{07:48:25.422} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_smoke_attractor.dat took 0ms 
+{07:48:25.423} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_smoking_sitting_1_attractor.dat took 0ms 
+{07:48:25.423} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_smoking_standing_1_attractor.dat took 0ms 
+{07:48:25.424} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_smoking_standing_2_attractor.dat took 0ms 
+{07:48:25.424} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_smoking_standing_3_attractor.dat took 0ms 
+{07:48:25.425} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_a_attractor.dat took 0ms 
+{07:48:25.425} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_d_attractor.dat took 0ms 
+{07:48:25.426} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_e_attractor.dat took 0ms 
+{07:48:25.426} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_folded_arms_1_attractor.dat took 0ms 
+{07:48:25.427} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_folded_arms_1_heavy_attractor.dat took 0ms 
+{07:48:25.428} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_gesture_a_attractor.dat took 0ms 
+{07:48:25.428} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_impatient_a_attractor.dat took 0ms 
+{07:48:25.429} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_impatient_b_attractor.dat took 0ms 
+{07:48:25.429} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_talk_a_attractor.dat took 0ms 
+{07:48:25.430} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_01_attractor.dat took 0ms 
+{07:48:25.430} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_01_guard_attractor.dat took 0ms 
+{07:48:25.431} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_01_guard_machete_in_hand_attractor.dat took 0ms 
+{07:48:25.431} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_01_noitem_attractor.dat took 0ms 
+{07:48:25.432} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_01b_attractor.dat took 0ms 
+{07:48:25.433} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_01b_noitem_attractor.dat took 0ms 
+{07:48:25.433} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_01b_rais_warehouse_attractor.dat took 0ms 
+{07:48:25.434} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_02_attractor.dat took 0ms 
+{07:48:25.434} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_02_jade_attractor.dat took 0ms 
+{07:48:25.435} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_02_noitem_attractor.dat took 0ms 
+{07:48:25.436} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_02b_attractor.dat took 0ms 
+{07:48:25.436} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_02b_noitem_attractor.dat took 0ms 
+{07:48:25.437} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_02b_noitem_not_strong_attractor.dat took 0ms 
+{07:48:25.437} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_03_attractor.dat took 0ms 
+{07:48:25.438} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_03_noitem_attractor.dat took 0ms 
+{07:48:25.439} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_03b_attractor.dat took 0ms 
+{07:48:25.439} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_03b_noitem_attractor.dat took 0ms 
+{07:48:25.440} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_gun_04_attractor.dat took 0ms 
+{07:48:25.440} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_rifle_02_only_lifeplace_attractor.dat took 0ms 
+{07:48:25.441} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_rifle_attractor.dat took 0ms 
+{07:48:25.441} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_rifle_entrance_keeper_only_lifeplace_attractor.dat took 0ms 
+{07:48:25.442} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_rifle_entrance_keeper_only_lifeplace_no_attack_attractor.dat took 0ms 
+{07:48:25.443} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_rifle_only_lifeplace_attractor.dat took 0ms 
+{07:48:25.443} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_rifle_only_lifeplace_threatening_attractor.dat took 0ms 
+{07:48:25.444} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_rifle_only_lifeplace_threatening_no_attack_attractor.dat took 0ms 
+{07:48:25.444} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_rifle_qte_attractor.dat took 0ms 
+{07:48:25.445} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_rifle_qte_only_lifeplace_attractor.dat took 0ms 
+{07:48:25.445} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_shotgun_01_only_lifeplace_attractor.dat took 0ms 
+{07:48:25.446} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_stand_with_shotgun_02_only_lifeplace_attractor.dat took 0ms 
+{07:48:25.446} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_standa_attractor.dat took 0ms 
+{07:48:25.447} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_standable_attractor.dat took 0ms 
+{07:48:25.447} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_standb_attractor.dat took 0ms 
+{07:48:25.448} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_street_conversation_a_attractor.dat took 0ms 
+{07:48:25.448} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_street_conversation_b_attractor.dat took 0ms 
+{07:48:25.449} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_street_conversation_c_attractor.dat took 0ms 
+{07:48:25.449} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_sweeping_b_attractor.dat took 0ms 
+{07:48:25.450} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_talk_pose2_attractor.dat took 0ms 
+{07:48:25.450} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_test_attractor.dat took 0ms 
+{07:48:25.451} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_tied_attractor.dat took 0ms 
+{07:48:25.451} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_trapped_a_attractor.dat took 0ms 
+{07:48:25.452} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_trapped_b_attractor.dat took 0ms 
+{07:48:25.452} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_trapped_c_attractor.dat took 0ms 
+{07:48:25.453} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_unarmed_entrance_keeper_attractor.dat took 0ms 
+{07:48:25.453} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_walk_a_attractor.dat took 0ms 
+{07:48:25.454} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_wall_sit_w_attractor.dat took 0ms 
+{07:48:25.454} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_wave_for_help_far_attractor.dat took 0ms 
+{07:48:25.455} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_wave_for_help_waiting_attractor.dat took 0ms 
+{07:48:25.455} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_wave_stand_a_attractor.dat took 0ms 
+{07:48:25.456} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_wavehands_attractor.dat took 0ms 
+{07:48:25.456} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_wavehands_flare_attractor.dat took 0ms 
+{07:48:25.457} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_window_clean_a_attractor.dat took 0ms 
+{07:48:25.458} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_window_clean_b_attractor.dat took 0ms 
+{07:48:25.458} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_wounded_a_attractor.dat took 0ms 
+{07:48:25.459} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_wounded_a_slim_attractor.dat took 0ms 
+{07:48:25.459} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_wounded_b_attractor.dat took 0ms 
+{07:48:25.460} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_wounded_c_attractor.dat took 0ms 
+{07:48:25.460} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from npc_yawnstretch_a_attractor.dat took 0ms 
+{07:48:25.461} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from orleno_checking_car_door_attractor.dat took 0ms 
+{07:48:25.461} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from phone_talking_attractor.dat took 0ms 
+{07:48:25.462} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from player_lying_attractor.dat took 0ms 
+{07:48:25.462} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from prime_attractor.dat took 0ms 
+{07:48:25.463} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_abduction_malik_attractor.dat took 0ms 
+{07:48:25.463} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_abduction_malik_death_attractor.dat took 0ms 
+{07:48:25.464} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_antennas_talking_to_rais_after_antennas_attractor.dat took 0ms 
+{07:48:25.464} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_arena_guard_attractor.dat took 0ms 
+{07:48:25.465} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_arena_rais_attractor.dat took 0ms 
+{07:48:25.466} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_arena_zere_attractor.dat took 0ms 
+{07:48:25.466} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_awakening_aman_after_attractor.dat took 0ms 
+{07:48:25.467} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_awakening_aman_attractor.dat took 0ms 
+{07:48:25.468} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_awakening_aman_closed_attractor.dat took 0ms 
+{07:48:25.468} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_awakening_guard_before_rahim_attractor.dat took 0ms 
+{07:48:25.469} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_awakening_two_men_attractor_man1_attractor.dat took 0ms 
+{07:48:25.469} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_awakening_two_men_attractor_man2_attractor.dat took 0ms 
+{07:48:25.470} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_babyisborn_macary_party_attractor.dat took 0ms 
+{07:48:25.470} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_babyisborn_talk_to_macary01_attractor.dat took 0ms 
+{07:48:25.471} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_babyisborn_talk_to_macary02_attractor.dat took 0ms 
+{07:48:25.471} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_babyisborn_talk_to_macary03_attractor.dat took 0ms 
+{07:48:25.472} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_babyisborn_talk_to_macary04_attractor.dat took 0ms 
+{07:48:25.472} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_blackout_first_meeting_with_spike_attractor.dat took 0ms 
+{07:48:25.473} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_blackout_spike_sends_to_jade_after_dialog_attractor.dat took 0ms 
+{07:48:25.473} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_blackout_spike_sends_to_jade_attractor.dat took 0ms 
+{07:48:25.474} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bricksforkids_kadim01_after_attractor.dat took 0ms 
+{07:48:25.474} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bricksforkids_kadim01_attractor.dat took 0ms 
+{07:48:25.475} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringdawud_firsttalktodawud_a_attractor.dat took 0ms 
+{07:48:25.475} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringgalib_nazim_after_attractor.dat took 0ms 
+{07:48:25.476} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringgalib_nazim_attractor.dat took 0ms 
+{07:48:25.476} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringgalib_osman01_attractor.dat took 0ms 
+{07:48:25.477} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringgalib_osman_b_attractor.dat took 0ms 
+{07:48:25.477} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringgalib_osman_b_kicked_attractor.dat took 0ms 
+{07:48:25.478} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringmusa_guard_a_attractor.dat took 0ms 
+{07:48:25.478} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringmusa_gursel_attractor.dat took 0ms 
+{07:48:25.479} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringmusa_musa_a_attractor.dat took 0ms 
+{07:48:25.480} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringmusa_musa_b_ali_attractor.dat took 0ms 
+{07:48:25.480} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringmusa_musa_b_attractor.dat took 0ms 
+{07:48:25.481} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringmusa_quddus_attractor.dat took 0ms 
+{07:48:25.481} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringmusa_quddus_depressed_attractor.dat took 0ms 
+{07:48:25.482} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringmusa_reish_a_attractor.dat took 0ms 
+{07:48:25.482} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringmusa_reish_b_after_attractor.dat took 0ms 
+{07:48:25.483} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bringmusa_reish_b_attractor.dat took 0ms 
+{07:48:25.483} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_bunker_ishan_attractor.dat took 0ms 
+{07:48:25.484} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_cease_and_desist_karim_a_attractor.dat took 0ms 
+{07:48:25.484} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_chasingpast_tariq01_attractor.dat took 0ms 
+{07:48:25.485} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_cenk_first_talk_attractor.dat took 0ms 
+{07:48:25.485} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_cenk_second_talk_attractor.dat took 0ms 
+{07:48:25.486} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_gursel_attractor.dat took 0ms 
+{07:48:25.486} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_gursel_wife_attractor.dat took 0ms 
+{07:48:25.487} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_jafar_attractor.dat took 0ms 
+{07:48:25.488} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_karim_01_after_attractor.dat took 0ms 
+{07:48:25.488} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_karim_01_attractor.dat took 0ms 
+{07:48:25.489} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_karim_02_outside_attractor.dat took 0ms 
+{07:48:25.489} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_morgan_after_attractor.dat took 0ms 
+{07:48:25.490} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_morgan_attractor.dat took 0ms 
+{07:48:25.490} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_courier_starting_courier_mission_karim_attractor.dat took 0ms 
+{07:48:25.491} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_dungeon_rupert_attractor.dat took 0ms 
+{07:48:25.491} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_dynamites_jaffar_givingdynamites_attractor.dat took 0ms 
+{07:48:25.492} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_electricmachete_alexei01_attractor.dat took 0ms 
+{07:48:25.492} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_electricmachete_alexei02_attractor.dat took 0ms 
+{07:48:25.493} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_electricmachete_alexeiend_attractor.dat took 0ms 
+{07:48:25.493} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_electricmachete_ayo01_after_attractor.dat took 0ms 
+{07:48:25.494} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_electricmachete_ayo01_attractor.dat took 0ms 
+{07:48:25.495} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_electricmachete_kristov01_attractor.dat took 0ms 
+{07:48:25.495} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_electricmachete_kristovbus_attractor.dat took 0ms 
+{07:48:25.496} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_electricmachete_returntoalexei_attractor.dat took 0ms 
+{07:48:25.496} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_electricmachete_returntoalexei_machete_attractor.dat took 0ms 
+{07:48:25.497} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_explosives_talking_to_rahim_at_the_roof_attractor.dat took 0ms 
+{07:48:25.498} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_finale_karims_death_after_attractor.dat took 0ms 
+{07:48:25.498} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_finale_karims_death_attractor.dat took 0ms 
+{07:48:25.499} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_firebug_zaid_01_after_attractor.dat took 0ms 
+{07:48:25.499} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_firebug_zaid_01_attractor.dat took 0ms 
+{07:48:25.500} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_firebug_zaid_02_after_attractor.dat took 0ms 
+{07:48:25.500} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_firebug_zaid_02_attractor.dat took 0ms 
+{07:48:25.501} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_gassedup_jeff_attractor.dat took 0ms 
+{07:48:25.501} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_generic_sitting_attractor.dat took 0ms 
+{07:48:25.502} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_going_outside_shopkeeper_attractor.dat took 0ms 
+{07:48:25.502} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_going_outside_shopkeeper_finished_attractor.dat took 0ms 
+{07:48:25.503} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_going_outside_survivor_man_01_attractor.dat took 0ms 
+{07:48:25.503} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_going_outside_survivor_woman_bed_attractor.dat took 0ms 
+{07:48:25.504} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_goodnightmrbahir_bahirlayingatfloor_afterdialog_attractor.dat took 0ms 
+{07:48:25.505} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_goodnightmrbahir_bahirlayingatfloor_attractor.dat took 0ms 
+{07:48:25.505} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_goodnightmrbahir_bento_attractor.dat took 0ms 
+{07:48:25.506} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_goodnightmrbahir_chrisneardoors_attractor.dat took 0ms 
+{07:48:25.506} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_goodnightmrbahir_lenaend_after_attractor.dat took 0ms 
+{07:48:25.507} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_goodnightmrbahir_lenaend_attractor.dat took 0ms 
+{07:48:25.507} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_goodnightmrbahir_yusifa_attractor.dat took 0ms 
+{07:48:25.508} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_goodnightmrbahir_yusifb_attractor.dat took 0ms 
+{07:48:25.508} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_goodnightmrbahir_yusifc_attractor.dat took 0ms 
+{07:48:25.509} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_guidetozombieland_fallon02_after_attractor.dat took 0ms 
+{07:48:25.509} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_guidetozombieland_fallon02_attractor.dat took 0ms 
+{07:48:25.510} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_gunslinger_salma01_attractor.dat took 0ms 
+{07:48:25.510} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_gunslinger_sammy_attractor.dat took 0ms 
+{07:48:25.511} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_k_npc_generic_talk_attractor.dat took 0ms 
+{07:48:25.511} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_kindergarten_rupert_after_attractor.dat took 0ms 
+{07:48:25.512} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_kindergarten_rupert_attractor.dat took 0ms 
+{07:48:25.513} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_landmine_kurt_attractor.dat took 0ms 
+{07:48:25.513} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_legless_spider_after_attractor.dat took 0ms 
+{07:48:25.514} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_legless_spider_attractor.dat took 0ms 
+{07:48:25.514} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_legless_spider_before_attractor.dat took 0ms 
+{07:48:25.515} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_looting_mark_01_attractor.dat took 0ms 
+{07:48:25.515} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_looting_talking_to_guard_after_attractor.dat took 0ms 
+{07:48:25.516} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_looting_talking_to_guard_attractor.dat took 0ms 
+{07:48:25.516} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_mothersday_gazi_attractor.dat took 0ms 
+{07:48:25.517} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_mothersday_gazi_sitting_attractor.dat took 0ms 
+{07:48:25.518} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_mothersday_lenaend_attractor.dat took 0ms 
+{07:48:25.518} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_mothersday_talking_to_lena_after_attractor.dat took 0ms 
+{07:48:25.519} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_mothersday_talking_to_lena_attractor.dat took 0ms 
+{07:48:25.519} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_museum_spike_attractor.dat took 0ms 
+{07:48:25.520} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_museum_tariq_after_attractor.dat took 0ms 
+{07:48:25.520} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_museum_tariq_attractor.dat took 0ms 
+{07:48:25.521} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_outpost_savvy01_attractor.dat took 0ms 
+{07:48:25.521} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_primehunting_quatermaster_attractor.dat took 0ms 
+{07:48:25.522} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_primehunting_zere_attractor.dat took 0ms 
+{07:48:25.522} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_project_mayhem_talk_to_michael_after_attractor.dat took 0ms 
+{07:48:25.523} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_project_mayhem_talk_to_michael_attractor.dat took 0ms 
+{07:48:25.523} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_prophet_ishaq_after_attractor.dat took 0ms 
+{07:48:25.524} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_prophet_ishaq_attractor.dat took 0ms 
+{07:48:25.524} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_revenge_erkan_attractor.dat took 0ms 
+{07:48:25.525} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_saviors_hazan_hatch_opening_attractor.dat took 0ms 
+{07:48:25.526} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_school_of_life_rahim_change_clothes_attractor.dat took 0ms 
+{07:48:25.526} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_school_of_life_rahim_tutorial_a_attractor.dat took 0ms 
+{07:48:25.527} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_schooloflife_rahim_02_attractor.dat took 0ms 
+{07:48:25.527} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_schooloflife_rahim_03_after_attractor.dat took 0ms 
+{07:48:25.528} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_schooloflife_rahim_03_attractor.dat took 0ms 
+{07:48:25.528} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_schooloflife_rahim_03_run_attractor.dat took 0ms 
+{07:48:25.529} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_survivalguide_neil_attractor.dat took 0ms 
+{07:48:25.529} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_tunnel_vision_blake_attractor.dat took 0ms 
+{07:48:25.530} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_tunnelvision_amanpackage_after_attractor.dat took 0ms 
+{07:48:25.531} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_tunnelvision_amanpackage_attractor.dat took 0ms 
+{07:48:25.531} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_tunnelvision_aziz_a_attractor.dat took 0ms 
+{07:48:25.532} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_tunnelvision_ryanenvelope_attractor.dat took 0ms 
+{07:48:25.532} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_twins_tolga04_attractor.dat took 0ms 
+{07:48:25.533} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_university_fidan_gives_amirs_photo_after_attractor.dat took 0ms 
+{07:48:25.533} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_university_fidan_gives_amirs_photo_attractor.dat took 0ms 
+{07:48:25.534} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_university_fidan_leaning_attractor.dat took 0ms 
+{07:48:25.534} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_voltage_alfie_attractor.dat took 0ms 
+{07:48:25.535} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_whereismymother_meliha01_after_attractor.dat took 0ms 
+{07:48:25.535} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_whereismymother_meliha01_attractor.dat took 0ms 
+{07:48:25.536} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_whereismymother_sibel01_after_attractor.dat took 0ms 
+{07:48:25.536} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_whereismymother_sibel01_attractor.dat took 0ms 
+{07:48:25.537} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_wheresmymother_aida_attractor.dat took 0ms 
+{07:48:25.537} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_wheresmymother_harun_attractor.dat took 0ms 
+{07:48:25.538} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_wheresmymother_yasmina_attractor.dat took 0ms 
+{07:48:25.538} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_witch_queen_dahlia_a_attractor.dat took 0ms 
+{07:48:25.539} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from quest_witch_queen_dahlia_b_attractor.dat took 0ms 
+{07:48:25.539} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from rahim_barrier_attractor.dat took 0ms 
+{07:48:25.540} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from rakim_sitting_radio_listening_attractor.dat took 0ms 
+{07:48:25.540} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from roger_test_attractor.dat took 0ms 
+{07:48:25.541} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from spitter_perfectmurder_attractor.dat took 0ms 
+{07:48:25.541} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from stand_point_c_attractor.dat took 0ms 
+{07:48:25.542} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_mz_sitting_01_attractor.dat took 0ms 
+{07:48:25.542} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_idle_random_01_attractor.dat took 0ms 
+{07:48:25.543} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_legless_attractor.dat took 0ms 
+{07:48:25.543} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_nailed_attractor.dat took 0ms 
+{07:48:25.544} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_rage_random_01_attractor.dat took 0ms 
+{07:48:25.544} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_wall_attack_01_attractor.dat took 0ms 
+{07:48:25.545} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_wall_attack_01_metal_attractor.dat took 0ms 
+{07:48:25.545} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_wall_attack_02_attractor.dat took 0ms 
+{07:48:25.546} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_wall_attack_02_metal_attractor.dat took 0ms 
+{07:48:25.546} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_wall_attack_03_attractor.dat took 0ms 
+{07:48:25.547} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_wall_attack_04_attractor.dat took 0ms 
+{07:48:25.548} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_wall_attack_05_attractor.dat took 0ms 
+{07:48:25.548} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_wall_attack_05_sound_attractor.dat took 0ms 
+{07:48:25.549} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_wall_attack_06_attractor.dat took 0ms 
+{07:48:25.549} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from strong_zombie_wall_attack_07_attractor.dat took 0ms 
+{07:48:25.550} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from ve_defender_a_attractor.dat took 0ms 
+{07:48:25.550} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from vehicle_armored_a_attractor.dat took 0ms 
+{07:48:25.551} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from vehicle_armored_b_attractor.dat took 0ms 
+{07:48:25.551} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from vehicle_combi_attractor.dat took 0ms 
+{07:48:25.552} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from vehicle_exp_pickup_attractor.dat took 0ms 
+{07:48:25.553} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from vehicle_landcruiser_static_attractor.dat took 0ms 
+{07:48:25.553} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from vehicle_landcruiser_static_noglass_attractor.dat took 0ms 
+{07:48:25.554} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from vehicle_offroad_pickup_attractor.dat took 0ms 
+{07:48:25.554} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from vehicle_pickup_attractor.dat took 0ms 
+{07:48:25.555} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from vehicle_sedan_attractor.dat took 0ms 
+{07:48:25.555} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from vehicle_suv_attractor.dat took 0ms 
+{07:48:25.556} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from virtual_corpse_a_attractor.dat took 0ms 
+{07:48:25.556} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from virtual_corpse_a_strong_attractor.dat took 0ms 
+{07:48:25.557} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from volatile_eating_corpse_01_attractor.dat took 0ms 
+{07:48:25.558} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from volatile_eating_corpse_02_attractor.dat took 0ms 
+{07:48:25.558} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from volatile_eating_corpse_03_attractor.dat took 0ms 
+{07:48:25.559} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from volatile_eating_corpse_04_attractor.dat took 0ms 
+{07:48:25.560} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_encounter_prisoner_lp_attractor.dat took 0ms 
+{07:48:25.560} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_accountatnt_01_attractor.dat took 0ms 
+{07:48:25.561} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_binoculars_lookout_attractor.dat took 0ms 
+{07:48:25.562} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_cooking_01_attractor.dat took 0ms 
+{07:48:25.562} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_hoe_raking_01_attractor.dat took 0ms 
+{07:48:25.563} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_hopeless_floor_01_attractor.dat took 0ms 
+{07:48:25.564} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_hopeless_floor_01_encounter_attractor.dat took 0ms 
+{07:48:25.564} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_ladder_climbing_attractor.dat took 0ms 
+{07:48:25.565} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_leaning_against_the_wall_01_attractor.dat took 0ms 
+{07:48:25.566} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_lp_dialog_01_attractor.dat took 0ms 
+{07:48:25.566} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_lp_dialog_02_attractor.dat took 0ms 
+{07:48:25.567} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_lp_dialog_03_attractor.dat took 0ms 
+{07:48:25.568} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_lp_dialog_04_attractor.dat took 0ms 
+{07:48:25.568} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_lp_sitting_reading_01_conversation_attractor.dat took 0ms 
+{07:48:25.569} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_lying_attractor.dat took 0ms 
+{07:48:25.569} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_nurse_01_attractor.dat took 0ms 
+{07:48:25.570} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_nurse_02_attractor.dat took 0ms 
+{07:48:25.570} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_praying_normal_01_attractor.dat took 0ms 
+{07:48:25.571} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_praying_normal_02_attractor.dat took 0ms 
+{07:48:25.571} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_qg_lifeplace_hopeless_01_attractor.dat took 0ms 
+{07:48:25.572} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_qg_sleeping_wounded_01_attractor.dat took 0ms 
+{07:48:25.573} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_qg_troy_dialog_01_attractor.dat took 0ms 
+{07:48:25.573} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_qg_troy_dialog_desk_01_attractor.dat took 0ms 
+{07:48:25.574} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_quest_bahir_nurse_attractor.dat took 0ms 
+{07:48:25.574} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_quest_bahir_nurse_receive_attractor.dat took 0ms 
+{07:48:25.575} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_quest_giver_generic_01_attractor.dat took 0ms 
+{07:48:25.575} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_quest_giver_haker_attractor.dat took 0ms 
+{07:48:25.576} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_scared_01_attractor.dat took 0ms 
+{07:48:25.577} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_scared_02_attractor.dat took 0ms 
+{07:48:25.577} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_sitting_by_fire_2_attractor.dat took 0ms 
+{07:48:25.578} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_sitting_eating_soup_01_attractor.dat took 0ms 
+{07:48:25.578} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_sitting_eating_soup_dynamic_01_attractor.dat took 0ms 
+{07:48:25.579} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_sitting_on_a_chair_01_attractor.dat took 0ms 
+{07:48:25.579} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_sleeping_bed_01_attractor.dat took 0ms 
+{07:48:25.580} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_sleeping_bed_01_dynamic_attractor.dat took 0ms 
+{07:48:25.580} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_sleeping_bed_01_no_pillow_attractor.dat took 0ms 
+{07:48:25.581} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_sleeping_mattres_01_attractor.dat took 0ms 
+{07:48:25.582} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_standing_idle_01_attractor.dat took 0ms 
+{07:48:25.582} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_standing_idle_plus_dialog_01_attractor.dat took 0ms 
+{07:48:25.583} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_stressed_idle_01_attractor.dat took 0ms 
+{07:48:25.583} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_stressed_idle_01_before_attractor.dat took 0ms 
+{07:48:25.584} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_stressed_idle_02_attractor.dat took 0ms 
+{07:48:25.584} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_stressed_idle_02_before_attractor.dat took 0ms 
+{07:48:25.585} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_sweeping_01_attractor.dat took 0ms 
+{07:48:25.585} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_sweeping_01_dynamic_attractor.dat took 0ms 
+{07:48:25.586} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_npc_weeding_attractor.dat took 0ms 
+{07:48:25.586} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_sample_dialog_attractor.dat took 0ms 
+{07:48:25.587} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_storyteller_grave_attractor.dat took 0ms 
+{07:48:25.588} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from w_zombie_attack_cave_entrance_attractor.dat took 0ms 
+{07:48:25.588} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from weapon_minigun_attractor.dat took 0ms 
+{07:48:25.589} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from wl_boss_mother_attractor.dat took 0ms 
+{07:48:25.590} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from wl_boss_mother_idle_attractor.dat took 0ms 
+{07:48:25.590} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from wl_boss_mother_short_attractor.dat took 0ms 
+{07:48:25.591} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from worried_attractor.dat took 0ms 
+{07:48:25.591} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from zombie_door_attacking_attractor.dat took 0ms 
+{07:48:25.592} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from zombie_wall_attack_01_attractor.dat took 0ms 
+{07:48:25.593} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from zombie_wall_attack_02_attractor.dat took 0ms 
+{07:48:25.593} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from zombie_wall_attack_03_attractor.dat took 0ms 
+{07:48:25.594} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from zombie_wall_attack_04_attractor.dat took 0ms 
+{07:48:25.595} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from zombie_wall_attack_05_attractor.dat took 0ms 
+{07:48:25.595} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from zombie_wall_attack_06_attractor.dat took 0ms 
+{07:48:25.596} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from zombie_wall_attack_07_attractor.dat took 0ms 
+{07:48:25.597} INFO: [AI]         > [AIDataManager::LoadAttractorDef]Loading attractor definition from zombie_wall_attack_08_attractor.dat took 0ms 
+{07:48:25.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from human_data.dat took 0ms 
+{07:48:25.603} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_enc_npc.dat took 0ms 
+{07:48:25.604} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_enc_npc_brave.dat took 0ms 
+{07:48:25.604} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_enc_npc_brave_autoheal.dat took 0ms 
+{07:48:25.604} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_enc_npc_coward.dat took 0ms 
+{07:48:25.604} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_enc_npc_nick.dat took 0ms 
+{07:48:25.604} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_enc_npc_rusher.dat took 0ms 
+{07:48:25.604} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_heavy_shooter.dat took 0ms 
+{07:48:25.604} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_kids.dat took 0ms 
+{07:48:25.605} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_man_helpful.dat took 0ms 
+{07:48:25.605} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a.dat took 0ms 
+{07:48:25.605} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_blunt_weapon.dat took 0ms 
+{07:48:25.605} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_enc.dat took 0ms 
+{07:48:25.606} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_enc_lvl00.dat took 0ms 
+{07:48:25.698} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_enc_lvl01.dat took 0ms 
+{07:48:25.706} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_enc_lvl02.dat took 0ms 
+{07:48:25.706} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_enc_lvl03.dat took 0ms 
+{07:48:25.707} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_enc_lvl04.dat took 0ms 
+{07:48:25.707} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_enc_lvl05_gaas.dat took 0ms 
+{07:48:25.707} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_hard.dat took 0ms 
+{07:48:25.708} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_hard_lvl00.dat took 0ms 
+{07:48:25.708} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_hard_lvl01.dat took 0ms 
+{07:48:25.708} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_hard_lvl02.dat took 0ms 
+{07:48:25.709} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_hard_lvl03.dat took 0ms 
+{07:48:25.709} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_hard_lvl04.dat took 0ms 
+{07:48:25.798} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_a_headhunter.dat took 0ms 
+{07:48:25.798} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_armored.dat took 0ms 
+{07:48:25.799} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_bento.dat took 0ms 
+{07:48:25.878} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_ghost.dat took 0ms 
+{07:48:25.878} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_outpost.dat took 0ms 
+{07:48:25.878} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_quest_wc_boss.dat took 0ms 
+{07:48:25.879} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_salim.dat took 0ms 
+{07:48:25.879} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_tahir.dat took 0ms 
+{07:48:25.879} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_tahir_keep_dist.dat took 0ms 
+{07:48:25.879} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_melee_fighter_test_prime_hunter.dat took 0ms 
+{07:48:25.967} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_nazim.dat took 0ms 
+{07:48:25.967} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_npc.dat took 0ms 
+{07:48:25.968} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_npc_blood.dat took 0ms 
+{07:48:25.968} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_npc_fighter_a_enc.dat took 0ms 
+{07:48:26.250} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_rust_melee.dat took 0ms 
+{07:48:26.251} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_rust_range.dat took 0ms 
+{07:48:26.251} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter.dat took 0ms 
+{07:48:26.269} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_boss.dat took 0ms 
+{07:48:26.269} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_boss_tahir.dat took 0ms 
+{07:48:26.284} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_first.dat took 0ms 
+{07:48:26.284} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_hard.dat took 0ms 
+{07:48:26.284} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_lvl00.dat took 0ms 
+{07:48:26.284} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_lvl01.dat took 0ms 
+{07:48:26.284} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_lvl02.dat took 0ms 
+{07:48:26.284} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_lvl03.dat took 0ms 
+{07:48:26.284} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_lvl04.dat took 0ms 
+{07:48:26.284} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_lvl05_gaas.dat took 0ms 
+{07:48:26.298} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_vest.dat took 0ms 
+{07:48:26.299} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_shooter_vest_tower.dat took 0ms 
+{07:48:26.497} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_sniper.dat took 0ms 
+{07:48:26.497} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from humandata/ai/human/human_data_custom_preset_woman.dat took 0ms 
+{07:48:26.498} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infected_data.dat took 0ms 
+{07:48:26.502} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored.dat took 0ms 
+{07:48:26.502} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored_contact.dat took 0ms 
+{07:48:26.502} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored_hard.dat took 0ms 
+{07:48:26.503} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored_hard_arena.dat took 0ms 
+{07:48:26.503} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored_hard_stadium.dat took 0ms 
+{07:48:26.631} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored_hard_zombie_hunt.dat took 0ms 
+{07:48:26.631} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored_presentation.dat took 0ms 
+{07:48:26.632} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored_prison.dat took 0ms 
+{07:48:26.632} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored_random_ram.dat took 0ms 
+{07:48:26.632} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored_stationary.dat took 0ms 
+{07:48:26.633} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_armored_tough.dat took 0ms 
+{07:48:26.633} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_big_infected_humanity.dat took 0ms 
+{07:48:26.633} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_biter_policeman.dat took 0ms 
+{07:48:26.865} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_btz_suicider.dat took 0ms 
+{07:48:26.865} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_btz_suicider_upgraded.dat took 0ms 
+{07:48:26.865} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_hive_brood.dat took 0ms 
+{07:48:26.865} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_hive_brood_wast.dat took 0ms 
+{07:48:26.865} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity.dat took 0ms 
+{07:48:26.865} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_gastank.dat took 0ms 
+{07:48:26.865} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_jim.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_jump.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_lvl1.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_lvl2.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_lvl3.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_lvl4.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_lvl5.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_lvl_easy.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_oldtown.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_stadium.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_w_lvl1.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_w_lvl2.dat took 0ms 
+{07:48:26.866} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_w_lvl3.dat took 0ms 
+{07:48:26.867} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_w_lvl4.dat took 0ms 
+{07:48:26.867} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_w_lvl5.dat took 0ms 
+{07:48:26.867} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_humanity_w_lvl_easy.dat took 0ms 
+{07:48:26.874} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_woman_humanity.dat took 0ms 
+{07:48:26.874} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_woman_humanity_oldtown.dat took 0ms 
+{07:48:26.875} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_infected_woman_humanity_stadium.dat took 0ms 
+{07:48:26.971} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker.dat took 0ms 
+{07:48:26.971} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_easy.dat took 0ms 
+{07:48:26.971} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_lvl1.dat took 0ms 
+{07:48:26.971} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_lvl2.dat took 0ms 
+{07:48:26.971} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_lvl3.dat took 0ms 
+{07:48:26.971} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_lvl4.dat took 0ms 
+{07:48:26.971} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_lvl5.dat took 0ms 
+{07:48:26.971} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_w_lvl1.dat took 0ms 
+{07:48:26.971} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_w_lvl2.dat took 0ms 
+{07:48:26.972} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_w_lvl3.dat took 0ms 
+{07:48:26.972} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_w_lvl4.dat took 0ms 
+{07:48:26.972} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_w_lvl5.dat took 0ms 
+{07:48:26.972} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_woman.dat took 0ms 
+{07:48:26.972} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_nightwalker_woman_easy.dat took 0ms 
+{07:48:26.972} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_prime.dat took 0ms 
+{07:48:26.972} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_prime_easter.dat took 0ms 
+{07:48:26.972} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_prime_night.dat took 0ms 
+{07:48:26.972} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_prime_night_ot.dat took 0ms 
+{07:48:26.992} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_prime_wast.dat took 0ms 
+{07:48:26.992} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_prime_winter.dat took 0ms 
+{07:48:26.992} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_ram.dat took 0ms 
+{07:48:26.992} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_screamer.dat took 0ms 
+{07:48:26.992} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_screamer_contact.dat took 0ms 
+{07:48:26.992} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_screamer_final.dat took 0ms 
+{07:48:26.993} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_screamer_wasteland.dat took 0ms 
+{07:48:27.027} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_spitter_demolition.dat took 0ms 
+{07:48:27.027} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_spitter_easy.dat took 0ms 
+{07:48:27.028} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_spitter_hard.dat took 0ms 
+{07:48:27.089} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_spitter_medium.dat took 0ms 
+{07:48:27.089} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_spitter_perfectmurder.dat took 0ms 
+{07:48:27.090} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_spitter_stadium.dat took 0ms 
+{07:48:27.090} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_spitter_stationary.dat took 0ms 
+{07:48:27.207} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_suicide_bomber.dat took 0ms 
+{07:48:27.207} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_suicide_bomber_final.dat took 0ms 
+{07:48:27.351} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_viral_group.dat took 0ms 
+{07:48:27.351} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_volatile.dat took 0ms 
+{07:48:27.352} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_volatile_final.dat took 0ms 
+{07:48:27.352} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_volatile_group.dat took 0ms 
+{07:48:27.352} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_volatile_no_jump.dat took 0ms 
+{07:48:27.352} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_volatile_no_spit.dat took 0ms 
+{07:48:27.352} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_volatile_nolight_react.dat took 0ms 
+{07:48:27.353} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_volatile_suicider.dat took 0ms 
+{07:48:27.353} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_volatile_super.dat took 0ms 
+{07:48:27.353} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from infecteddata/ai/infected/infected_data_custom_preset_volatile_wast.dat took 0ms 
+{07:48:27.453} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombie_data.dat took 0ms 
+{07:48:27.470} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_anim_set_a.dat took 0ms 
+{07:48:27.471} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_anim_set_a_nodrowning.dat took 0ms 
+{07:48:27.510} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_anim_set_b.dat took 0ms 
+{07:48:27.510} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_anim_set_b_nodrowning.dat took 0ms 
+{07:48:27.510} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_anim_set_c.dat took 0ms 
+{07:48:27.510} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_anim_set_c_nodrowning.dat took 0ms 
+{07:48:27.569} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_anim_set_waste.dat took 0ms 
+{07:48:27.569} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_biter_policeman.dat took 0ms 
+{07:48:27.598} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_gastank.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_gastankgray.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_lurker.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_0_a.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_1_b.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_1_c.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_2_b.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_2_c.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_3_b.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_3_c.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_4_b.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_4_c.dat took 0ms 
+{07:48:27.599} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_5_b.dat took 0ms 
+{07:48:27.600} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_5_c.dat took 0ms 
+{07:48:27.600} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_5_d.dat took 0ms 
+{07:48:27.600} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_5_e.dat took 0ms 
+{07:48:27.600} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_easy_0_a.dat took 0ms 
+{07:48:27.600} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_level_easy_1_a.dat took 0ms 
+{07:48:27.600} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_man_mushroom.dat took 0ms 
+{07:48:27.600} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_military.dat took 0ms 
+{07:48:27.600} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_multi_blister.dat took 0ms 
+{07:48:27.600} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_stationary_suicider.dat took 0ms 
+{07:48:27.601} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_suicider.dat took 0ms 
+{07:48:27.601} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_suicider_wast.dat took 0ms 
+{07:48:27.601} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_thug_armed_dream.dat took 0ms 
+{07:48:27.601} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_thug_armed_easy.dat took 0ms 
+{07:48:27.601} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_thug_armed_gaas2.dat took 0ms 
+{07:48:27.601} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_thug_armed_hard.dat took 0ms 
+{07:48:27.601} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_thug_armed_hard_gaas.dat took 0ms 
+{07:48:27.601} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_thug_armed_hard_stadium.dat took 0ms 
+{07:48:27.632} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_thug_armed_medium.dat took 0ms 
+{07:48:27.632} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_thug_armed_medium_stadium.dat took 0ms 
+{07:48:27.632} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_thug_armed_presentation.dat took 0ms 
+{07:48:27.989} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_a.dat took 0ms 
+{07:48:27.989} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_a_nodrowning.dat took 0ms 
+{07:48:27.989} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_b.dat took 0ms 
+{07:48:27.989} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_b_nodrowning.dat took 0ms 
+{07:48:27.990} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_level_0_a.dat took 0ms 
+{07:48:27.990} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_level_1_b.dat took 0ms 
+{07:48:27.990} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_level_2_b.dat took 0ms 
+{07:48:27.990} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_level_3_b.dat took 0ms 
+{07:48:27.991} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_level_4_b.dat took 0ms 
+{07:48:27.991} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_level_5_b.dat took 0ms 
+{07:48:27.991} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_level_easy_0_a.dat took 0ms 
+{07:48:27.991} INFO: [AI]         > [AIDataManager::LoadDataSet]Loading data set from zombiedata/ai/zombie/zombie_data_custom_preset_woman_level_easy_1_a.dat took 0ms 
+{07:48:29.566} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767295497)[LampDI]. Default data applied for the object.
+{07:48:29.568} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299095)[LampDI]. Default data applied for the object.
+{07:48:29.568} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299100)[LampDI]. Default data applied for the object.
+{07:48:29.568} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299136)[LampDI]. Default data applied for the object.
+{07:48:29.568} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299141)[LampDI]. Default data applied for the object.
+{07:48:29.568} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299174)[LampDI]. Default data applied for the object.
+{07:48:29.568} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299179)[LampDI]. Default data applied for the object.
+{07:48:29.568} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299212)[LampDI]. Default data applied for the object.
+{07:48:29.568} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299217)[LampDI]. Default data applied for the object.
+{07:48:29.569} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299250)[LampDI]. Default data applied for the object.
+{07:48:29.569} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299255)[LampDI]. Default data applied for the object.
+{07:48:29.569} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299423)[LampDI]. Default data applied for the object.
+{07:48:29.569} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767299428)[LampDI]. Default data applied for the object.
+{07:48:29.569} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767300414)[LampDI]. Default data applied for the object.
+{07:48:29.569} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767300419)[LampDI]. Default data applied for the object.
+{07:48:29.569} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767300692)[LampDI]. Default data applied for the object.
+{07:48:29.569} ERRR: [RTTI]       > Preset 'Halogen Blinking' not found in group 'Sfx Type' for object (767300697)[LampDI]. Default data applied for the object.
+{07:48:30.144} ERRR: [ERRR]       > CMesh::Initialize: cannot apply skin 'Default' in mesh 'fence_planks_b.msh'
+{07:48:31.347} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.348} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.348} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.348} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.349} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.349} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.349} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.350} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.350} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.350} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.351} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.351} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.352} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.352} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.352} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.353} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.353} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.353} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.353} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.353} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.353} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.353} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.353} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.353} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.354} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.354} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.354} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.354} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.354} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.354} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.354} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.354} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.354} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.355} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.355} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.355} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.356} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.356} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.356} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.357} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.357} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.357} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.358} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.358} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.358} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.359} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.359} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.360} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.360} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.360} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.361} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.361} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.361} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.361} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.361} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.361} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.361} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.362} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.362} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.362} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.362} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.362} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.362} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.362} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.362} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.362} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.363} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.363} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.364} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.364} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.364} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.364} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.364} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.364} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.365} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.365} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.365} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.366} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.366} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.366} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.366} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.367} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.367} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.367} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.367} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.367} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.369} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.370} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.371} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.373} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.373} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.373} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.373} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.374} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.375} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.375} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.375} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.375} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.375} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.376} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.376} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.376} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.376} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.376} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.377} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.377} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.377} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.378} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.379} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.380} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.382} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.383} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.384} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.386} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.387} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.389} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.390} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.391} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.393} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.394} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.396} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.397} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.398} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.398} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.398} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.399} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.399} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.399} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.400} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.400} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.400} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.401} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.401} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.401} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.402} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.402} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.403} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.403} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.403} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.404} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.404} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.404} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.406} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.406} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.406} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.407} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.407} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.408} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.408} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.409} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.409} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.409} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.410} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.410} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.410} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.411} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.411} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.411} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.412} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.412} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.413} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.413} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.413} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.414} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.414} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.414} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.415} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.415} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.415} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.416} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.416} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.416} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.417} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.417} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.418} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.418} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.418} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.419} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.419} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.419} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.420} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.420} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.420} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.421} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.421} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.422} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.424} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.425} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.425} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.425} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.426} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.426} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.427} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.427} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.427} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.428} ERRR: [Parser]     > Param 3 in function ItemSpawnerMesh() is not a string
+{07:48:31.431} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.434} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.436} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:31.437} ERRR: [Parser]     > Param 9 in function MeshLootType() is not a string
+{07:48:34.920} ERRR: [RestClient] > SendRequest failed. Unable to establish connection with server. Check you have a working network connection.
+{07:48:35.925} ERRR: [RestClient] > SendRequest failed. Unable to establish connection with server. Check you have a working network connection.
+{07:48:46.569} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83005, mesh: 'dlc_destro_brick.msh', skin: 'Default') already replaced!
+{07:48:46.569} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83009, mesh: 'dlc_destro_brick.msh', skin: 'Default') already replaced!
+{07:48:46.569} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83010, mesh: 'bottle_a.msh', skin: 'Default') already replaced!
+{07:48:46.569} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83011, mesh: 'bottle_b.msh', skin: 'Default') already replaced!
+{07:48:46.569} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83013, mesh: 'pursuit_rebar_a.msh', skin: 'Default') already replaced!
+{07:48:48.535} ERRR: [RestClient] > SendRequest failed. Unable to establish connection with server. Check you have a working network connection.
+{07:49:02.248} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83005, mesh: 'dlc_destro_brick.msh', skin: 'Default') already replaced!
+{07:49:02.248} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83009, mesh: 'dlc_destro_brick.msh', skin: 'Default') already replaced!
+{07:49:02.248} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83010, mesh: 'bottle_a.msh', skin: 'Default') already replaced!
+{07:49:02.248} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83011, mesh: 'bottle_b.msh', skin: 'Default') already replaced!
+{07:49:02.248} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83013, mesh: 'pursuit_rebar_a.msh', skin: 'Default') already replaced!
+{07:49:05.292} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83005, mesh: 'dlc_destro_brick.msh', skin: 'Default') already replaced!
+{07:49:05.292} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83009, mesh: 'dlc_destro_brick.msh', skin: 'Default') already replaced!
+{07:49:05.292} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83010, mesh: 'bottle_a.msh', skin: 'Default') already replaced!
+{07:49:05.292} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83011, mesh: 'bottle_b.msh', skin: 'Default') already replaced!
+{07:49:05.293} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83013, mesh: 'pursuit_rebar_a.msh', skin: 'Default') already replaced!
+{07:49:05.627} INFO: [INFO]       > >>>>> <-487847473> Performing save - mode <FromQuests>
+{07:49:08.831} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83005, mesh: 'dlc_destro_brick.msh', skin: 'Default') already replaced!
+{07:49:08.832} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83009, mesh: 'dlc_destro_brick.msh', skin: 'Default') already replaced!
+{07:49:08.832} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83010, mesh: 'bottle_a.msh', skin: 'Default') already replaced!
+{07:49:08.832} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83011, mesh: 'bottle_b.msh', skin: 'Default') already replaced!
+{07:49:08.832} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83013, mesh: 'pursuit_rebar_a.msh', skin: 'Default') already replaced!
+{07:49:13.952} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83005, mesh: 'dlc_destro_brick.msh', skin: 'Default') already replaced!
+{07:49:13.952} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83009, mesh: 'dlc_destro_brick.msh', skin: 'Default') already replaced!
+{07:49:13.952} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83010, mesh: 'bottle_a.msh', skin: 'Default') already replaced!
+{07:49:13.952} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83011, mesh: 'bottle_b.msh', skin: 'Default') already replaced!
+{07:49:13.952} ERRR: [Dynamic]    > [DynamicObjectsManager::ReplaceStaticByPtr] Simple object (id: 83013, mesh: 'pursuit_rebar_a.msh', skin: 'Default') already replaced!{07:49:48.574} ERRR: [RestClient] > SendRequest failed. Unable to establish connection with server. Check you have a working network connection.
+{07:50:07.368} ERRR: [ERRR]       > ---- Starting crash dump procedure -----
+{07:50:07.368} ERRR: [ERRR]       > ---- Exception code: 3221225477 (0xc0000005) -----
+{07:50:07.385} ERRR: [ERRR]       > ---- Crash dump file: G:\FPS Games\Dying Light - Platinum Edition\dumps\6.2021.0508.1500-Owner-20230305-075007-369-304-1948.dmp ----
+{07:50:07.737} ERRR: [ERRR]       > ---- Crash dump sucessfully written ----
+{07:50:07.737} ERRR: [ERRR]       > ---- Application crash, look for dump and possible crash source below ----
